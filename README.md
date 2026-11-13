@@ -152,8 +152,15 @@ patchbowl.yaml       Patchbowl catalog entry
 AGENTS.md            guide for AI coding agents
 ```
 
+## Standards
+
+Every PatchBowl connector meets the [Connector Standards](https://github.com/PatchBowl/.github/blob/main/CONNECTOR_STANDARDS.md): how to handle secrets, set tool annotations, treat untrusted content, manage dependencies and test. Read them before you publish, and use the checklist at the end when you ask for a catalog `verified: true` badge.
+
+Contributing, security reporting and conduct follow the [PatchBowl community files](https://github.com/PatchBowl/.github).
+
 ## Learn more
 
+- [Connector Standards](https://github.com/PatchBowl/.github/blob/main/CONNECTOR_STANDARDS.md)
 - [MCP TypeScript SDK docs (v2)](https://ts.sdk.modelcontextprotocol.io/v2/)
 - [MCP specification](https://modelcontextprotocol.io)
 - [Patchbowl](https://github.com/patchbowl/patchbowl)
