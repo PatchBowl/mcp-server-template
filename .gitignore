@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Test coverage
+coverage/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Local Claude tools (skills symlink is dev-only)
+.claude/skills

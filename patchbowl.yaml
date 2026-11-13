@@ -1,0 +1,33 @@
+# Your server's entry for the Patchbowl catalog.
+# When your server is published, copy this file to
+# catalog/<id>.yaml in https://github.com/patchbowl/patchbowl and open a PR.
+# Full schema: https://github.com/patchbowl/patchbowl/blob/main/catalog/README.md
+
+id: mcp-server-template
+name: MCP Server Template
+description: >
+  Example server with a greeting tool and a word-count tool. Replace this
+  with one or two plain-English sentences about what your server does.
+category: other                      # dev-tools | data | productivity | web | ai | infra | other
+
+source:
+  type: npm
+  package: "@patchbowl/mcp-server-template"
+
+runtime:
+  command: npx
+  args: ["-y", "@patchbowl/mcp-server-template"]
+
+license: MIT
+homepage: https://github.com/patchbowl/mcp-server-template
+maintainer: "@patchbowl"
+
+# List every env var your server reads. Patchbowl stores these encrypted and
+# injects them at runtime, so they never land in a client config file.
+secrets: []
+#  - key: EXAMPLE_API_KEY
+#    description: "API key from example.com/settings"
+#    required: true
+
+tags: ["template", "example"]
+verified: false
